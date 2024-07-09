@@ -4,7 +4,7 @@ import about from "../images/about.png"
 function Home() {
   return (
     <>
-    <div className='bground h-[100vh] w-[100vw] overflow-x-hidden'>
+    <div className='bground h-auto w-[100vw] overflow-x-hidden'>
     <div className='text-white text-[60px] font-bold mx-auto text-center h-[70vh] flex flex-col justify-center'>
       <h1>Join the Nexa Revolution</h1>
       <h1>Redefining Cryptocurrency Accessibility</h1> 
@@ -37,11 +37,10 @@ function Home() {
         <h1 className='text-[60px] font-bold '>Advantage of  <span className='text-[purple]'>Nexa Token</span> </h1>
         <h1 className='text-[17px] mt-2'>Nexa Token has many advantages over other cryptocurrencies when it comes to security; its BEP-20 compatibility allows users to trust their transactions are being processed securely on the blockchain. For example, all transfers are encrypted using advanced cryptographic algorithms, making them extremely difficult to hack or tamper with. Furthermore, the token is powered by the innovative consensus protocol BFT (Byzantine Fault Tolerance), which ensures that all transactions are validated before being added to the blockchain ledger.</h1>
       </div>
-     
     </div>
     </div>
     </>
-  )
+  ) 
 } 
 
 export default Home
