@@ -8,7 +8,7 @@ export default function App() {
    <Navbar />
    <Router>
  <Routes >
-   <Route element={<Home />} path="/" />
+   <Route element={<Home />} exact path="/" />
  </Routes>
    </Router>
  <Footer />

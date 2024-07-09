@@ -7,10 +7,12 @@ function Navbar() {
     <>
    <div className=' overflow-hidden h-[100px]  flex items-center justify-around'>
     <div className='flex items-center'>
-      <div className='flex'>
+      <div>
+        
+      </div>
           <img src={coin} className='w-[100px] h-[70px]' />
           <h1 className='font-bold text-[20px]'>NEXA COIN</h1>
-      </div>
+      
     </div>
           <div>
           <a className='mr-8 text-[18px]'>Home</a>
