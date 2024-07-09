@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.bground{
+    /* background-image: -webkit-linear-gradient(red, green, blue); */
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+.login{
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
