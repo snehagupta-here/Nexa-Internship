@@ -2,6 +2,7 @@ import React from 'react'
 import "./Home.css";
 import about from "../images/about.png"
 import img1 from "../images/img1.jpg"
+import img2 from "../images/img2.png"
 function Home() {
   return (
     <>
@@ -18,26 +19,17 @@ function Home() {
       </div>
       <div className='w-[30%] h-[500px]  overflow-hidden'>
         <img className='w-[450px] h-[400px] mb-[500px] rounded-[50%]' src={img1} />
-      </div>                                                                                                                                                                                                                  
+      </div>                                                                                                                                                                                                                
     </div>
     <div className='w-[80%] h-[600px] flex mx-auto  justify-between'>
     <div className='w-[50%] h-[500px] overflow-hidden'>
-        <img className='w-[650px] h-[500px] mb-[500px] ' src={about} />
+        <img className='w-[750px] h-[500px] mb-[500px] ' src={img2} />
       </div>
       <div className='text-white w-[45%]'>
         <h1 className='text-[55px] font-bold '>Advantage of  <span className='text-[purple]'>Nexa Token</span> </h1>
         <h1 className='text-[17px] mt-2'>Nexa Token has many advantages over other cryptocurrencies when it comes to security; its BEP-20 compatibility allows users to trust their transactions are being processed securely on the blockchain. For example, all transfers are encrypted using advanced cryptographic algorithms, making them extremely difficult to hack or tamper with. Furthermore, the token is powered by the innovative consensus protocol BFT (Byzantine Fault Tolerance), which ensures that all transactions are validated before being added to the blockchain ledger.</h1>
       </div>
      
-    </div>
-    <div className='w-[80%] h-[1000px] flex mx-auto  justify-between'>
-    <div className='w-[50%]'>
-        <img className='w-[650px] h-[500px] mb-[500px] ' src={about} />
-      </div>
-      <div className='text-white w-[50%]'>
-        <h1 className='text-[60px] font-bold '>Advantage of  <span className='text-[purple]'>Nexa Token</span> </h1>
-        <h1 className='text-[17px] mt-2'>Nexa Token has many advantages over other cryptocurrencies when it comes to security; its BEP-20 compatibility allows users to trust their transactions are being processed securely on the blockchain. For example, all transfers are encrypted using advanced cryptographic algorithms, making them extremely difficult to hack or tamper with. Furthermore, the token is powered by the innovative consensus protocol BFT (Byzantine Fault Tolerance), which ensures that all transactions are validated before being added to the blockchain ledger.</h1>
-      </div>
     </div>
     </div>
     </>
